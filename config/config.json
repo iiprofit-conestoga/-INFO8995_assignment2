@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "iiprofit",
+    "password": "ksolanki6269",
+    "database": "iiprofit_db",
+    "host": "mysql",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "iiprofit",
+    "password": "ksolanki6269",
+    "database": "iiprofit_db_test",
+    "host": "mysql",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "iiprofit",
+    "password": "ksolanki6269",
+    "database": "iiprofit_db",
+    "host": "mysql",
+    "dialect": "mysql"
+  }
+}
