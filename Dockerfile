@@ -16,10 +16,10 @@ USER appuser
 
 
 # Copy environment variables from the compose file
-ENV NODE_ENV=${NODE_ENV}
-ENV DB_HOST=${DB_HOST}
-ENV DB_USER=${DB_USER}
-ENV DB_PASSWORD=${DB_PASSWORD}
-ENV DB_NAME=${DB_NAME}
+# ENV NODE_ENV=${NODE_ENV}
+# ENV DB_HOST=${DB_HOST}
+# ENV DB_USER=${DB_USER}
+# ENV DB_PASSWORD=${DB_PASSWORD}
+# ENV DB_NAME=${DB_NAME}
 
 CMD ["node", "server.js"]

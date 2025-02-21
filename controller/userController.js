@@ -1,4 +1,4 @@
-const { User } = require('../models');
+const { User } = require('../Models');
 const logger = require('../utils/loggers');
 
 // Get all users

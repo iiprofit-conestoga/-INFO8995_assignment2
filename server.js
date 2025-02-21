@@ -2,7 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const winston = require('winston');
-const { sequelize } = require('./models'); // Import Sequelize models
+const sequelize = require('./config/database'); // Importing the Sequelize instance
 const userRoutes = require('./routes/userRoutes');
 
 const app = express();
